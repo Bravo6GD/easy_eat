@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Anton', cursive;
+}
+
+body{
+    background: linear-gradient(120deg, #181115 0%, #474848 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 12rem;
+    margin-top: 6rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width:333px ;
+}
+.card-img{
+    height: 200px;
+    width: auto;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 30px 20px;
+    
+}
+.card-body h3{
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.card-body hr{
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+}
+
+.card-body ul {
+    display: flex;
+    align-items: center;
+}
+
+.card-body ul li {
+    list-style: none;
+    padding: 18px;
+    
+}
+.card-body ul li i{
+    color: gray;
+    font-size: 19px;
+    margin-right: 10px;
+}
+.card-body ul li span{
+    color: rgb(208, 55, 55);
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-body button{
+    background: rgb(254, 78, 78);
+    color: white;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.card-body button:hover{
+    border: 1px solid red;
+    color: red;
+    background: white;
+}
